@@ -1,0 +1,50 @@
+
+
+body {
+    background-color: gainsboro;
+}
+.personagem {
+    width: 60px;
+    height: 60px;
+    background-image: url(dino.png);
+    position: absolute;
+    bottom: 0;
+}
+.obstaculosStyle{ 
+    width: 60px;
+    height: 60px;
+    background-image: url(cactus.png);
+    position: absolute;
+    bottom: 0;
+}
+
+.fim_de_jogo {
+    width: 300px;
+    text-align: center;
+    color: #817bf2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    box-shadow: 2px 2px 5px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+@keyframes sidleright {
+    from {
+        background-position: 70000%;
+    }
+    to {
+        background-position: 0;
+    }
+}
+
+.imagemFundo {
+    position: absolute;
+    bottom: 0;
+    background-image: url(background.png);
+    background-repeat: repeat-x;
+    animation: sidlerigth 600s infinite linear;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 200px;
+}
