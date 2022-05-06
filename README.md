@@ -1,1 +1,1 @@
-# Jogo do dinosauro página do web offline.
+# Jogo do dino, página web offline.
