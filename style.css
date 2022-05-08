@@ -43,7 +43,7 @@ body {
     bottom: 0;
     background-image: url(background.png);
     background-repeat: repeat-x;
-    animation: sidlerigth 600s infinite linear;
+    animation: sidleright 600s infinite linear;
     width: 100%;
     height: 200px;
     margin-bottom: 200px;
